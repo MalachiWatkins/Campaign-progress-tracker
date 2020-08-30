@@ -31,15 +31,15 @@ Act1 = {
     14: "The Cavern of Anger",
     15: 'Got Instance Details from login server'
 }
-#
-# Whilenum = 1
-# while Whilenum < 3:
-#     num = Whilenum
-#     Whilenum += 1                    ######################################
-#     if matches[3] == Act1[num]:      ####Loop Through the Dict of act 1####
-#         print('yes')                 ######################################
-#     else:
-#         print('no')
+
+Whilenum = 1
+while Whilenum < 3:
+    num = Whilenum
+    Whilenum += 1
+    if matches[3] == Act1[num]:  # Loop Through the Dict of act 1####
+        print('yes')
+    else:
+        print('no')
 Act2 = {
     1: "The Southern Forest",
     2: "The Old Fields",
