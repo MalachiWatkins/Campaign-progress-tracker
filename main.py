@@ -3,13 +3,18 @@ import os
 
 with open('log.txt') as logfile:
     regex = r"2020.08.20 ..:..:.. ..............\WINFO Client .......: (.*?)\n"
-    Log = str(logfile.read())
+    Log = str(logfile.read())  # reads file
+    # matches for current regex in file
     matches = re.findall(regex, Log, re.MULTILINE)
-    matchLen = (len(matches)
-# globalWhile = 0
-# while
-#     pass
-Act1={
+    matchLen = (len(matches))  # number of matches
+
+WhileMatchLen = matchLen + 1
+MatchWhile = WhileMatchLen
+
+while MatchWhile < matchLen:  # Global while for looping with matches###
+    MatcheNum = MatchWhile
+    MatchWhile += 1
+Act1 = {
     1: "You have entered Lioneye's Watch,",
     2: "You have entered The Coast.",
     3: "Mud Flats",
@@ -26,16 +31,16 @@ Act1={
     14: "The Cavern of Anger",
     15: 'Got Instance Details from login server'
 }
-
-Whilenum=1
-while Whilenum < 3:
-    num=Whilenum
-    Whilenum += 1
-    if matches[3] == Act1[num]:
-        print('yes')
-    else:
-        print('no')
-Act2={
+#
+# Whilenum = 1
+# while Whilenum < 3:
+#     num = Whilenum
+#     Whilenum += 1                    ######################################
+#     if matches[3] == Act1[num]:      ####Loop Through the Dict of act 1####
+#         print('yes')                 ######################################
+#     else:
+#         print('no')
+Act2 = {
     1: "The Southern Forest",
     2: "The Old Fields",
     3: "The Crossroads",
@@ -52,7 +57,7 @@ Act2={
     14: "Ancient pyramid",
     15: 'Got Instance Details from login server'
 }
-Act3={
+Act3 = {
     1: "The City of Sarn",
     2: "The Slums",
     3: "The Crematorium",
@@ -69,7 +74,7 @@ Act3={
     14: "The Sceptre of God",
     15: "Upper Sceptre of God"
 }
-Act4={
+Act4 = {
     1: "The Aqueduct",
     2: "The Dried Lake",
     3: "The Mines 1",
@@ -86,7 +91,7 @@ Act4={
     14: "Got Instance Details from login server",
     15: "Got Instance Details from login server"
 }
-Act5={
+Act5 = {
     1: "The Slave Pens",
     2: "The Control Blocks",
     3: "Oriath Square",
@@ -105,7 +110,7 @@ Act5={
 }
 
 # Second half
-Act_6={
+Act_6 = {
     1: "The Twilight Strand",
     2: "The Coast",
     3: "The Mud Flats",
@@ -122,7 +127,7 @@ Act_6={
     14: "The Beacon",
     15: "The Brine Kings's Reef",
 }
-Act_7={
+Act_7 = {
     1: "The Broken Bridge",
     2: "The Crossroads",
     3: "The Fellshrine Ruins",
@@ -139,7 +144,7 @@ Act_7={
     14: "The Vaal City",
     15: "The Temple of Decay",
 }
-Act_8={
+Act_8 = {
     1: "The Sarn Ramparts",
     2: "The Toxic Conduits",
     3: "Doedre's Cesspool",
@@ -156,7 +161,7 @@ Act_8={
     14: "Harbour Bridge",
     15: "Got Instance Details from login server",
 }
-Act_9={
+Act_9 = {
     1: "The Blood Aqueduct",
     2: "The Descent",
     3: "The Vastiri Desert",
@@ -173,7 +178,7 @@ Act_9={
     14: "Got Instance Details from login server",
     15: "Got Instance Details from login server",
 }
-Act_10={
+Act_10 = {
     1: "The Cathedral Rooftop",
     2: "The Ravaged Square",
     3: "The Ossuary",
@@ -191,14 +196,14 @@ Act_10={
     15: "Got Instance Details from login server",
 }
 
-Act_names={
+Act_names = {
     1: Act1,
     2: Act2,
     3: Act3,
     4: Act4,
     5: Act5,
 }
-Act_names2={
+Act_names2 = {
     1: Act_6,
     2: Act_7,
     3: Act_8,
