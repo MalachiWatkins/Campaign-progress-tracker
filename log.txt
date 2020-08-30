@@ -1,0 +1,6 @@
+
+2020/08/20 19:54:50 312139921 e3b [DEBUG Client 15168] Got Instance Details from login server
+2020/08/20 19:54:57 312146921 b80 [INFO Client 15168] : You have entered Karui Shores.
+2020/08/20 19:55:04 312153921 b80 [INFO Client 15168] : You have played for 15 hours, 9 minutes, and 20 seconds.
+2020/08/20 19:54:57 312146921 b80 [INFO Client 15168] : You have entered Lioneye's Watch.
+2020/08/20 19:54:57 312146921 b80 [INFO Client 15168] : You have entered The Coast.
