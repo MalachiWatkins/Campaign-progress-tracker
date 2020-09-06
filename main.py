@@ -2,21 +2,22 @@ import re
 import os
 
 with open('log.txt') as logfile:
-    regex = r"2020.08.20 ..:..:.. ..............\WINFO Client .......: (.*?)\n"
+    reg = " ........ ......... ... .INFO Client ....] : You have entered (.*?)\\n"
+    regDate = "2020.08.31"
+    regex = r"" + regDate + reg
     Log = str(logfile.read())  # reads file
     # matches for current regex in file
     matches = re.findall(regex, Log, re.MULTILINE)
     matchLen = (len(matches))  # number of matches
-
-WhileMatchLen = matchLen + 1
-MatchWhile = WhileMatchLen
-
-while MatchWhile < matchLen:  # Global while for looping with matches###
-    MatcheNum = MatchWhile
-    MatchWhile += 1
+    matchlen = matchLen - 1
+Matchwhile = 1
+while Matchwhile < matchLen:
+    Matchwhile += 1
+# print(matches[13])
+# print(Matchwhile)
 Act1 = {
-    1: "You have entered Lioneye's Watch,",
-    2: "You have entered The Coast.",
+    1: "Lioneye's Watch",
+    2: "The Coast.",
     3: "Mud Flats",
     4: "Tidal Island",
     5: "Submerged Passage",
@@ -32,14 +33,39 @@ Act1 = {
     15: 'Got Instance Details from login server'
 }
 
-Whilenum = 1
-# while Whilenum < 3:
+# Whilenum = 1
+# while Whilenum < 8:
 #     num = Whilenum
 #     Whilenum += 1
-#     if matches[3] == Act1[num]:  # Loop Through the Dict of act 1
-#         print('yes')
+#
+
+
+class Whileloops:
+    def While(self, m, l):
+        while m < l:
+            x = m
+            # print(x)
+            print(m)
+            m += 1
+
+
+def test():
+    first = Whileloops()
+    first.While(m=1, l=14)
+
+
+test()
+# x = 1
+# while x < matchLen:
+#     number = x
+#     print(number)
+#     if matches[13] == Act1[1]:  # Loop Through the Dict of act 1
+#         sade = 1
 #     else:
-#         print('no')
+#         sade = 2
+#     x += 1
+
+
 Act2 = {
     1: "The Southern Forest",
     2: "The Old Fields",
