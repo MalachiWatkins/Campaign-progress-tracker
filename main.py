@@ -11,7 +11,9 @@ with open('log.txt') as logfile:
     matches = re.findall(regex, Log, re.MULTILINE)
     matchLen = (len(matches))  # number of matches
     matchlen = matchLen - 1
-
+    # percent = int(round(percent, 2))
+    # if percent == 84:
+    #     percent = percent + 16
 Act1 = {
     1: "Lioneye's Watch",
     2: "The Coast.",
@@ -27,36 +29,7 @@ Act1 = {
     12: "The Ship Graveyard",
     13: "The Cavern of Wrath",
     14: "The Cavern of Anger",
-    # 15: 'Got Instance Details from login server'
 }
-
-percentAct1 = 0
-
-
-class Whileloops:
-    def WhileAct(self, x, length, act):
-
-        while x < length:
-            for q in Act1:
-                global percentAct1
-                if matches[x] == act[q]:
-                    print('Match Found! ' + matches[x])
-                    percentAct1 += 100 / 14
-                    percentAct1 = int(round(percentAct1, 2))
-                    if percentAct1 == 98:
-                        percentAct1 = percentAct1 + 2
-
-            x += 1
-        print(percentAct1)
-
-
-def match():
-    firstmatch = Whileloops()
-    firstmatch.WhileAct(x=0, length=matchLen, act=Act1),
-
-
-match()
-
 Act2 = {
     1: "The Southern Forest",
     2: "The Old Fields",
@@ -71,8 +44,7 @@ Act2 = {
     11: "The Vaal Ruins",
     12: "The Northern Forest",
     13: "The Caverns",
-    14: "Ancient pyramid",
-    15: 'Got Instance Details from login server'
+    14: "Ancient pyramid"
 }
 Act3 = {
     1: "The City of Sarn",
@@ -104,9 +76,7 @@ Act4 = {
     10: "Belly of the Beast 1",
     11: "Belly of the Beast 2",
     12: "The Harvest",
-    13: "The Ascent",
-    14: "Got Instance Details from login server",
-    15: "Got Instance Details from login server"
+    13: "The Ascent"
 }
 Act5 = {
     1: "The Slave Pens",
@@ -119,12 +89,60 @@ Act5 = {
     8: "The Ossuary",
     9: "The Reliquary",
     10: "Cathedral Rooftop",
-    11: "Got Instance Details from login server",
-    12: "Got Instance Details from login server",
-    13: "Got Instance Details from login server",
-    14: "Got Instance Details from login server",
-    15: "Got Instance Details from login server"
 }
+percent = 0
+
+
+class Whileloops:
+    def half1(self, x, length, act):
+
+        while x < length:
+            for q in act:
+                if matches[x] == act[q]:
+                    # print('Match Found! ' + matches[x])
+                    global percent
+                    percent += 100 / 66
+                    # percent = round(percent)
+                    percent = round(percent, 1)
+
+            x += 1
+        if percent == 21.0:
+            percent = 20
+        else:
+            percent = percent + 1
+        if percent == 42.0:
+            percent = 40
+        else:
+            null = 0
+        if percent == 63.5:
+            percent = 60
+        else:
+            null = 1
+        if percent == 77.5:
+            percent = 80
+        else:
+            null = 2
+        if percent == 96.0:
+            percent = 100
+        else:
+            null = 3
+        print(percent)
+
+        return percent
+
+
+def firsthalf():
+    firstmatch = Whileloops()
+    firstmatch.half1(x=0, length=matchLen, act=Act1)  # max is 20%
+    firstmatch.half1(x=0, length=matchLen, act=Act2)  # max is 40%
+    # must do Solaris first
+    firstmatch.half1(x=0, length=matchLen, act=Act3)    # max is 60%
+    firstmatch.half1(x=0, length=matchLen, act=Act4)    # max is 80%
+    firstmatch.half1(x=0, length=matchLen, act=Act5)    # max is 100%
+
+
+firsthalf()
+
 
 # Second half
 Act_6 = {
