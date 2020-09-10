@@ -40,15 +40,16 @@ class Whileloops:
                 global percentAct1
                 if matches[x] == act[q]:
                     print('Match Found! ' + matches[x])
-                    percentAct1 += 7.14285714286
-                    percentAct1 = round(percentAct1)
+                    percentAct1 += 6.66666666667
+                    # percentAct1 = round(percentAct1)
+                    percentAct1 = roundup(percentAct1)
             x += 1
         print(percentAct1)
 
 
 def match():
     firstmatch = Whileloops()
-    firstmatch.WhileAct(x=1, length=matchLen, act=Act1),
+    firstmatch.WhileAct(x=0, length=matchLen, act=Act1),
 
 
 match()
