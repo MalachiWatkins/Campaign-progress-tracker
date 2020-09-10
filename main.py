@@ -1,6 +1,6 @@
 import re
 import os
-
+import math
 with open('log.txt') as logfile:
     reg = " ........ ......... ... .INFO Client ....] : You have entered (.*?)\\n"
     regDate = "2020.08.31"
@@ -10,11 +10,7 @@ with open('log.txt') as logfile:
     matches = re.findall(regex, Log, re.MULTILINE)
     matchLen = (len(matches))  # number of matches
     matchlen = matchLen - 1
-Matchwhile = 1
-while Matchwhile < matchLen:
-    Matchwhile += 1
-# print(matches[13])
-# print(Matchwhile)
+
 Act1 = {
     1: "Lioneye's Watch",
     2: "The Coast.",
@@ -33,38 +29,29 @@ Act1 = {
     15: 'Got Instance Details from login server'
 }
 
-# Whilenum = 1
-# while Whilenum < 8:
-#     num = Whilenum
-#     Whilenum += 1
-#
+percentAct1 = 0
 
 
 class Whileloops:
-    def While(self, m, l):
-        while m < l:
-            x = m
-            # print(x)
-            print(m)
-            m += 1
+    def WhileAct(self, x, length, act):
+
+        while x < length:
+            for q in Act1:
+                global percentAct1
+                if matches[x] == act[q]:
+                    print('Match Found! ' + matches[x])
+                    percentAct1 += 7.14285714286
+                    percentAct1 = round(percentAct1)
+            x += 1
+        print(percentAct1)
 
 
-def test():
-    first = Whileloops()
-    first.While(m=1, l=14)
+def match():
+    firstmatch = Whileloops()
+    firstmatch.WhileAct(x=1, length=matchLen, act=Act1),
 
 
-test()
-# x = 1
-# while x < matchLen:
-#     number = x
-#     print(number)
-#     if matches[13] == Act1[1]:  # Loop Through the Dict of act 1
-#         sade = 1
-#     else:
-#         sade = 2
-#     x += 1
-
+match()
 
 Act2 = {
     1: "The Southern Forest",
