@@ -2,7 +2,7 @@ import re
 import os
 import math
 from fractions import Fraction
-from tkinter import *
+# from tkinter import *
 with open('log.txt') as logfile:
     reg = " ........ ......... ... .INFO Client ....] : You have entered (.*?)\\n"
     regDate = "2020.08.31"
@@ -15,7 +15,7 @@ with open('log.txt') as logfile:
     # percent = int(round(percent, 2))
     # if percent == 84:
     #     percent = percent + 16
-Act1 = {
+Act1_2_3_4_5 = {
     1: "Lioneye's Watch",
     2: "The Coast.",
     3: "Mud Flats",
@@ -30,120 +30,82 @@ Act1 = {
     12: "The Ship Graveyard",
     13: "The Cavern of Wrath",
     14: "The Cavern of Anger",
+    15: "The Southern Forest",
+    16: "The Old Fields",
+    17: "The Crossroads",
+    18: "The Chamber of Sins Level 1",
+    19: "The Chamber of Sins Level 2",
+    20: "Broken Bridge",
+    21: "The Riverways",
+    22: "The Western Forest",
+    23: "Weavers Chambers",
+    24: "The Wetlands",
+    25: "The Vaal Ruins",
+    26: "The Northern Forest",
+    27: "The Caverns",
+    28: "Ancient pyramid",
+    29: "The City of Sarn",
+    30: "The Slums",
+    31: "The Crematorium",
+    32: "The Sewers",
+    33: "The Markteplace",
+    34: "The Battlefront",
+    35: "The Docks",
+    36: "The Solaris Temple 1",
+    37: "The Solaris Temple 2",
+    38: "The Ebony Barracks",
+    39: "Lunaris Temple 1",
+    40: "Lunaris Temple 2",
+    41: "Imperial Gardens",
+    42: "The Sceptre of God",
+    43: "Upper Sceptre of God",
+    44: "The Aqueduct",
+    45: "The Dried Lake",
+    46: "The Mines 1",
+    47: "The Mines 2",
+    48: "The Crystal Veins",
+    49: "Daresso's Dream",
+    50: "The Grand Arena",
+    51: "The Kaom's Dream",
+    52: "The Kaom's Stronghold",
+    53: "Belly of the Beast 1",
+    54: "Belly of the Beast 2",
+    55: "The Harvest",
+    56: "The Ascent",
+    57: "The Slave Pens",
+    58: "The Control Blocks",
+    59: "Oriath Square",
+    60: "The Templar Courts",
+    61: "Chamber of Innocence",
+    62: "The Torched Courts",
+    63: "The Ruined Square",
+    64: "The Ossuary",
+    65: "The Reliquary",
+    66: "Cathedral Rooftop",
 }
-Act2 = {
-    1: "The Southern Forest",
-    2: "The Old Fields",
-    3: "The Crossroads",
-    4: "The Chamber of Sins Level 1",
-    5: "The Chamber of Sins Level 2",
-    6: "Broken Bridge",
-    7: "The Riverways",
-    8: "The Western Forest",
-    9: "Weavers Chambers",
-    10: "The Wetlands",
-    11: "The Vaal Ruins",
-    12: "The Northern Forest",
-    13: "The Caverns",
-    14: "Ancient pyramid"
-}
-Act3 = {
-    1: "The City of Sarn",
-    2: "The Slums",
-    3: "The Crematorium",
-    4: "The Sewers",
-    5: "The Markteplace",
-    6: "The Battlefront",
-    7: "The Docks",
-    8: "The Solaris Temple 1",
-    9: "The Solaris Temple 2",
-    10: "The Ebony Barracks",
-    11: "Lunaris Temple 1",
-    12: "Lunaris Temple 2",
-    13: "Imperial Gardens",
-    14: "The Sceptre of God",
-    15: "Upper Sceptre of God"
-}
-Act4 = {
-    1: "The Aqueduct",
-    2: "The Dried Lake",
-    3: "The Mines 1",
-    4: "The Mines 2",
-    5: "The Crystal Veins",
-    6: "Daresso's Dream",
-    7: "The Grand Arena",
-    8: "The Kaom's Dream   ",
-    9: "The Kaom's Stronghold  ",
-    10: "Belly of the Beast 1",
-    11: "Belly of the Beast 2",
-    12: "The Harvest",
-    13: "The Ascent"
-}
-Act5 = {
-    1: "The Slave Pens",
-    2: "The Control Blocks",
-    3: "Oriath Square",
-    4: "The Templar Courts",
-    5: "Chamber of Innocence",
-    6: "The Torched Courts",
-    7: "The Ruined Square",
-    8: "The Ossuary",
-    9: "The Reliquary",
-    10: "Cathedral Rooftop",
-}
-percent = 0
 
 
 class Whileloops:
-    def half1(self, x, length, act):
-
+    def half1(self, x, length, act, percent):
+        # global percent
         while x < length:
             for q in act:
                 if matches[x] == act[q]:
                     # print('Match Found! ' + matches[x])
-                    global percent
+
                     percent += 100 / 66
                     # percent = round(percent)
                     percent = round(percent, 1)
-
             x += 1
-        if percent == 21.0:
-            percent = 20
-        else:
-            percent = percent + 1
-        if percent == 42.0:
-            percent = 40
-        else:
-            null = 0
-        if percent == 63.5:
-            percent = 60
-        else:
-            null = 1
-        if percent == 77.5:
-            percent = 80
-        else:
-            null = 2
-        if percent == 96.0:
-            percent = 100
-        else:
-            null = 3
-        master = Tk()
-        perc = percent
-        master.minsize(width=100, height=20)
-        w = Label(master, text=perc)
-        w.pack()
-        mainloop()
+            if percent == 99.0:
+                percent = percent + 1
+
         return percent
 
 
 def firsthalf():
     firstmatch = Whileloops()
-    firstmatch.half1(x=0, length=matchLen, act=Act1)  # max is 20%
-    firstmatch.half1(x=0, length=matchLen, act=Act2)  # max is 40%
-    # must do Solaris first
-    firstmatch.half1(x=0, length=matchLen, act=Act3)    # max is 60%
-    firstmatch.half1(x=0, length=matchLen, act=Act4)    # max is 80%
-    firstmatch.half1(x=0, length=matchLen, act=Act5)    # max is 100%
+    firstmatch.half1(x=0, length=matchLen, act=Act1_2_3_4_5, percent=0)
 
 
 firsthalf()
@@ -234,19 +196,4 @@ Act_10 = {
     13: "Got Instance Details from login server",
     14: "Got Instance Details from login server",
     15: "Got Instance Details from login server",
-}
-
-Act_names = {
-    1: Act1,
-    2: Act2,
-    3: Act3,
-    4: Act4,
-    5: Act5,
-}
-Act_names2 = {
-    1: Act_6,
-    2: Act_7,
-    3: Act_8,
-    4: Act_9,
-    5: Act_10,
 }
