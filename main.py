@@ -27,7 +27,7 @@ Act1 = {
     12: "The Ship Graveyard",
     13: "The Cavern of Wrath",
     14: "The Cavern of Anger",
-    15: 'Got Instance Details from login server'
+    # 15: 'Got Instance Details from login server'
 }
 
 percentAct1 = 0
@@ -42,7 +42,10 @@ class Whileloops:
                 if matches[x] == act[q]:
                     print('Match Found! ' + matches[x])
                     percentAct1 += 100 / 14
-                    percentAct1 = round(percentAct1, 3)
+                    percentAct1 = int(round(percentAct1, 2))
+                    if percentAct1 == 98:
+                        percentAct1 = percentAct1 + 2
+
             x += 1
         print(percentAct1)
 
