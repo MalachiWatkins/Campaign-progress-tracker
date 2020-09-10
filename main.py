@@ -1,6 +1,7 @@
 import re
 import os
 import math
+from fractions import Fraction
 with open('log.txt') as logfile:
     reg = " ........ ......... ... .INFO Client ....] : You have entered (.*?)\\n"
     regDate = "2020.08.31"
@@ -40,9 +41,8 @@ class Whileloops:
                 global percentAct1
                 if matches[x] == act[q]:
                     print('Match Found! ' + matches[x])
-                    percentAct1 += 6.66666666667
-                    # percentAct1 = round(percentAct1)
-                    percentAct1 = roundup(percentAct1)
+                    percentAct1 += 100 / 14
+                    percentAct1 = round(percentAct1, 3)
             x += 1
         print(percentAct1)
 
