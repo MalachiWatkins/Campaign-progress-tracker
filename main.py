@@ -2,6 +2,7 @@ import re
 import os
 import math
 from fractions import Fraction
+from tkinter import *
 with open('log.txt') as logfile:
     reg = " ........ ......... ... .INFO Client ....] : You have entered (.*?)\\n"
     regDate = "2020.08.31"
@@ -126,8 +127,12 @@ class Whileloops:
             percent = 100
         else:
             null = 3
-        print(percent)
-
+        master = Tk()
+        perc = percent
+        master.minsize(width=100, height=20)
+        w = Label(master, text=perc)
+        w.pack()
+        mainloop()
         return percent
 
 
