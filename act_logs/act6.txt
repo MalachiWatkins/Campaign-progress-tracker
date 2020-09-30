@@ -1,0 +1,16 @@
+Act6
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Twilight Strand
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Coast
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Mud Flats
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Karui Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ridge
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Lower Prison
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Shavronne's Tower
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Prisoner's Gate
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Western Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Riverways
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Wetlands
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Southern Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Cavern of Anger
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Beacon
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Brine Kings's Reef

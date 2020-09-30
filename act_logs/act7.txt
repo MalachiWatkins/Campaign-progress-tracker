@@ -1,0 +1,16 @@
+Act7
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Broken Bridge
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crossroads
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Fellshrine Ruins
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crypt 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crypt 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Chamber of Sins 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Maligaro's Sanctum
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Chamber of Sins 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Den
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ashen Fields
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Northern Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Dread Thicket
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Causeway
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Vaal City
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Temple of Decay

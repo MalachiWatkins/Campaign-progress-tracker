@@ -1,0 +1,68 @@
+Act6
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Twilight Strand
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Coast
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Mud Flats
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Karui Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ridge
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Lower Prison
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Shavronne's Tower
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Prisoner's Gate
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Western Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Riverways
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Wetlands
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Southern Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Cavern of Anger
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Beacon
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Brine Kings's Reef
+Act7
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Broken Bridge
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crossroads
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Fellshrine Ruins
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crypt 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crypt 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Chamber of Sins 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Maligaro's Sanctum
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Chamber of Sins 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Den
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ashen Fields
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Northern Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Dread Thicket
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Causeway
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Vaal City
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Temple of Decay
+Act8
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Sarn Ramparts
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Toxic Conduits
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Doedre's Cesspool
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Grand Promenade
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Bath House
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Lunaris Temple 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Lunaris Temple 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Quay
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Grain Gate
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Imperial Fields
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Solaris Temple 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Solaris Temple 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Harbour Bridge
+Act9
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Blood AqueductThe Descent
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Descent
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Vastiri Desert
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Oasis
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Foothills
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Boiling Lake
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Tunnel
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Quarry
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Shrine of The Winds
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Refinery
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Belly of the Beast
+Act10
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Cathedral Rooftop
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ravaged Square
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ossuary
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Torched Courts
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Desecrated Chambers
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Reliquary
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Control Blocks
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Canals
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Feeding Trough

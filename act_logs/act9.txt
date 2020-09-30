@@ -1,0 +1,12 @@
+Act9
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Blood AqueductThe Descent
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Descent
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Vastiri Desert
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Oasis
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Foothills
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Boiling Lake
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Tunnel
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Quarry
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Shrine of The Winds
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Refinery
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Belly of the Beast

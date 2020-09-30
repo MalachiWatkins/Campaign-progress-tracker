@@ -1,0 +1,10 @@
+Act10
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Cathedral Rooftop
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ravaged Square
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ossuary
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Torched Courts
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Desecrated Chambers
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Reliquary
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Control Blocks
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Canals
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Feeding Trough

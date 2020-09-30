@@ -1,0 +1,79 @@
+Act1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Lioneye's Watch
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Coast.
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Mud Flats
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Tidal Island
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Submerged Passage
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ledge
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Flooded Depths
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Climb
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Lower Prison
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Upper Prison
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Prisoner's Gate
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ship Graveyard
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Cavern of Wrath
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Cavern of Anger
+Act2
+#
+#
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Southern Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Old Fields
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crossroads
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Chamber of Sins Level 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Chamber of Sins Level 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Broken Bridge
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Riverways
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Western Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Weavers Chambers
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Wetlands
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Vaal Ruins
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Northern Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Caverns
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Ancient pyramid
+Act3
+#
+#
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The City of Sarn
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Slums
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crematorium
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Sewers
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Markteplace
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Battlefront
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Docks
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Solaris Temple 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Solaris Temple 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ebony Barracks
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Lunaris Temple 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Lunaris Temple 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Imperial Gardens
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Sceptre of God
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Upper Sceptre of God
+Act4
+#
+#
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Aqueduct
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Dried Lake
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Mines 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Mines 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crystal Veins
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Daresso's Dream
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Grand Arena
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Kaom's Dream
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Kaom's Stronghold
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Belly of the Beast 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Belly of the Beast 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Harvest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ascent
+Act5
+#
+#
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Slave Pens
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Control Blocks
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Oriath Square
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Templar Courts
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Chamber of Innocence
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Torched Courts
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ruined Square
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ossuary
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Reliquary
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Cathedral Rooftop

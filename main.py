@@ -2,7 +2,8 @@ import re
 import os
 import math
 from fractions import Fraction
-# from tkinter import *
+from tkinter import *
+# must add encoding='utf-8' to open args for app to work with windows
 with open('log.txt') as logfile:
     reg = " ........ ......... ... .INFO Client ....] : You have entered (.*?)\\n"
     regDate = "2020.08.31"
@@ -12,9 +13,7 @@ with open('log.txt') as logfile:
     matches = re.findall(regex, Log, re.MULTILINE)
     matchLen = (len(matches))  # number of matches
     matchlen = matchLen - 1
-    # percent = int(round(percent, 2))
-    # if percent == 84:
-    #     percent = percent + 16
+encoding ='utf - 8
 Act1_2_3_4_5 = {
     1: "Lioneye's Watch",
     2: "The Coast.",
@@ -83,36 +82,7 @@ Act1_2_3_4_5 = {
     65: "The Reliquary",
     66: "Cathedral Rooftop",
 }
-
-
-class Whileloops:
-    def half1(self, x, length, act, percent):
-        # global percent
-        while x < length:
-            for q in act:
-                if matches[x] == act[q]:
-                    # print('Match Found! ' + matches[x])
-
-                    percent += 100 / 66
-                    # percent = round(percent)
-                    percent = round(percent, 1)
-            x += 1
-            if percent == 99.0:
-                percent = percent + 1
-
-        return percent
-
-
-def firsthalf():
-    firstmatch = Whileloops()
-    firstmatch.half1(x=0, length=matchLen, act=Act1_2_3_4_5, percent=0)
-
-
-firsthalf()
-
-
-# Second half
-Act_6 = {
+Act_6_7_8_9_10 = {
     1: "The Twilight Strand",
     2: "The Coast",
     3: "The Mud Flats",
@@ -128,72 +98,99 @@ Act_6 = {
     13: "The Cavern of Anger",
     14: "The Beacon",
     15: "The Brine Kings's Reef",
+    16: "The Broken Bridge",
+    17: "The Crossroads",
+    18: "The Fellshrine Ruins",
+    19: "The Crypt 1",
+    20: "The Crypt 2",
+    21: "The Chamber of Sins 1",
+    22: "Maligaro's Sanctum",
+    23: "Chamber of Sins 2",
+    24: "The Den",
+    25: "The Ashen Fields",
+    26: "The Northern Forest",
+    27: "The Dread Thicket",
+    28: "The Causeway",
+    29: "The Vaal City",
+    30: "The Temple of Decay",
+    31: "The Sarn Ramparts",
+    32: "The Toxic Conduits",
+    33: "Doedre's Cesspool",
+    34: "The Grand Promenade",
+    35: "The Bath House",
+    36: "The Lunaris Concourse",
+    37: "The Lunaris Temple 1",
+    38: "The Lunaris Temple 2",
+    39: "The Quay",
+    40: "The Grain Gate",
+    41: "The Imperial Fields",
+    42: "Solaris Temple 1",
+    43: "Solaris Temple 2",
+    44: "Harbour Bridge",
+    45: "The Blood Aqueduct",
+    46: "The Descent",
+    47: "The Vastiri Desert",
+    48: "The Oasis",
+    49: "The Foothills",
+    50: "The Boiling Lake",
+    51: "The Tunnel",
+    52: "The Quarry",
+    53: "Shrine of The Winds",
+    54: "The Refinery",
+    55: "The Belly of the Beast",
+    56: "The Cathedral Rooftop",
+    57: "The Ravaged Square",
+    58: "The Ossuary",
+    59: "The Torched Courts",
+    60: "The Desecrated Chambers",
+    61: "The Reliquary",
+    62: "The Control Blocks",
+    63: "The Canals",
+    64: "The Feeding Trough",
+    65: "",
 }
-Act_7 = {
-    1: "The Broken Bridge",
-    2: "The Crossroads",
-    3: "The Fellshrine Ruins",
-    4: "The Crypt 1",
-    5: "The Crypt 2",
-    6: "The Chamber of Sins 1",
-    7: "Maligaro's Sanctum",
-    8: "Chamber of Sins 2",
-    9: "The Den",
-    10: "The Ashen Fields",
-    11: "The Northern Forest",
-    12: "The Dread Thicket",
-    13: "The Causeway",
-    14: "The Vaal City",
-    15: "The Temple of Decay",
-}
-Act_8 = {
-    1: "The Sarn Ramparts",
-    2: "The Toxic Conduits",
-    3: "Doedre's Cesspool",
-    4: "The Grand Promenade",
-    5: "The Bath House",
-    6: "The Lunaris Concourse",
-    7: "The Lunaris Temple 1",
-    8: "The Lunaris Temple 2",
-    9: "The Quay",
-    10: "The Grain Gate",
-    11: "The Imperial Fields",
-    12: "Solaris Temple 1",
-    13: "Solaris Temple 2",
-    14: "Harbour Bridge",
-    15: "Got Instance Details from login server",
-}
-Act_9 = {
-    1: "The Blood Aqueduct",
-    2: "The Descent",
-    3: "The Vastiri Desert",
-    4: "The Oasis",
-    5: "The Foothills",
-    6: "The Boiling Lake",
-    7: "The Tunnel",
-    8: "The Quarry",
-    9: "Shrine of The Winds",
-    10: "The Refinery",
-    11: "The Belly of the Beast",
-    12: "Got Instance Details from login server",
-    13: "Got Instance Details from login server",
-    14: "Got Instance Details from login server",
-    15: "Got Instance Details from login server",
-}
-Act_10 = {
-    1: "The Cathedral Rooftop",
-    2: "The Ravaged Square",
-    3: "The Ossuary",
-    4: "The Torched Courts",
-    5: "The Desecrated Chambers",
-    6: "The Reliquary",
-    7: "The Control Blocks",
-    8: "The Canals",
-    9: "The Feeding Trough",
-    10: "Got Instance Details from login server",
-    11: "Got Instance Details from login server",
-    12: "Got Instance Details from login server",
-    13: "Got Instance Details from login server",
-    14: "Got Instance Details from login server",
-    15: "Got Instance Details from login server",
-}
+
+# gui for app
+
+
+def gui(percentage):
+    master = Tk()
+    PercentageFirsthalf = "percentage of Campaign first half Completed", percentage
+    master.minsize(width=300, height=50)
+    Perc1 = Lable(master, text=PercentageFirsthalf)
+    Perc1.pack()
+    mainloop()
+    return
+
+
+class Whileloops:
+    def half1(self, length, act):
+        percent = 0
+        x = 0
+        while x < length:
+            for q in act:
+                if matches[x] == act[q]:
+                    percent += 1.515151515151515
+                    percent = round(percent, 1)
+            x += 1
+            if percent == 99.0:
+                percent = percent + 1
+                # gui(percentage=percent)
+        return percent
+
+    def half2(self, length, act):
+        percent = 0
+        x = 0
+        while x < length:
+            for q in act:
+                if matches[x] == act[q]:
+                    percent += ?
+                    percent = round(percent, 1)
+
+
+def firsthalf():
+    firstmatch = Whileloops()
+    firstmatch.half1(length=matchLen, act=Act1_2_3_4_5)
+
+
+firsthalf()

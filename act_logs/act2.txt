@@ -1,0 +1,17 @@
+Act2
+#
+#
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Southern Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Old Fields
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crossroads
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Chamber of Sins Level 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Chamber of Sins Level 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Broken Bridge
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Riverways
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Western Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Weavers Chambers
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Wetlands
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Vaal Ruins
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Northern Forest
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Caverns
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Ancient pyramid

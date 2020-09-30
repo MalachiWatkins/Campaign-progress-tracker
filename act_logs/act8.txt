@@ -1,0 +1,14 @@
+Act8
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Sarn Ramparts
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Toxic Conduits
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Doedre's Cesspool
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Grand Promenade
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Bath House
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Lunaris Temple 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Lunaris Temple 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Quay
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Grain Gate
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Imperial Fields
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Solaris Temple 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Solaris Temple 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Harbour Bridge

@@ -1,0 +1,18 @@
+Act3
+#
+#
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The City of Sarn
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Slums
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Crematorium
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Sewers
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Markteplace
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Battlefront
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Docks
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Solaris Temple 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Solaris Temple 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Ebony Barracks
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Lunaris Temple 1
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Lunaris Temple 2
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Imperial Gardens
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Sceptre of God
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Upper Sceptre of God
