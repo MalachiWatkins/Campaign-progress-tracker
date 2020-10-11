@@ -45,7 +45,7 @@ Act8
 2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Solaris Temple 2
 2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered Harbour Bridge
 Act9
-2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Blood AqueductThe Descent
+2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Blood Aqueduct
 2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Descent
 2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Vastiri Desert
 2020/08/31 05:04:55 861383609 b80 [INFO Client 7444] : You have entered The Oasis

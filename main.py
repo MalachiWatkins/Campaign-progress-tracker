@@ -1,8 +1,12 @@
-import re
-import os
-import math
-from fractions import Fraction
 from tkinter import *
+from fractions import Fraction
+import math
+import os
+import re
+# TODO
+# 1: clean up code and comment as of now
+# 2: finish basic gui and get percentages working
+
 # must add encoding='utf-8' to open args for app to work with windows
 with open('log.txt') as logfile:
     reg = " ........ ......... ... .INFO Client ....] : You have entered (.*?)\\n"
@@ -13,7 +17,6 @@ with open('log.txt') as logfile:
     matches = re.findall(regex, Log, re.MULTILINE)
     matchLen = (len(matches))  # number of matches
     matchlen = matchLen - 1
-encoding ='utf - 8
 Act1_2_3_4_5 = {
     1: "Lioneye's Watch",
     2: "The Coast.",
@@ -147,7 +150,6 @@ Act_6_7_8_9_10 = {
     62: "The Control Blocks",
     63: "The Canals",
     64: "The Feeding Trough",
-    65: "",
 }
 
 # gui for app
@@ -163,34 +165,41 @@ def gui(percentage):
     return
 
 
-class Whileloops:
-    def half1(self, length, act):
-        percent = 0
-        x = 0
-        while x < length:
-            for q in act:
-                if matches[x] == act[q]:
-                    percent += 1.515151515151515
-                    percent = round(percent, 1)
-            x += 1
-            if percent == 99.0:
-                percent = percent + 1
-                # gui(percentage=percent)
-        return percent
+def half1(length):
+    act1 = Act1_2_3_4_5
+    percent = 0
+    x = 0
+    while x < length:
+        x += 1
+        for q in act1:
+            if matches[x] == act1[q]:
+                print(matches[x])
+                percent += 100 / 66
+                percent = round(percent)
+        if percent > 100:
+            percent = 100
 
-    def half2(self, length, act):
-        percent = 0
-        x = 0
-        while x < length:
-            for q in act:
-                if matches[x] == act[q]:
-                    percent += ?
-                    percent = round(percent, 1)
+            # gui(percentage=percent)
+    print(percent)
+    return
 
 
-def firsthalf():
-    firstmatch = Whileloops()
-    firstmatch.half1(length=matchLen, act=Act1_2_3_4_5)
+def half2(length):
+    act2 = Act_6_7_8_9_10
+    percent = 0
+    x = 0
+    while x < length:
+        for q in act2:
+            if matches[x] == act2[q]:
+                # print(matches[x])
+                percent += 100 / 64
+                percent = round(percent, 1)
+        x += 1
+        if percent > 100:
+            percent = 100
+    print(percent)
+    return
 
 
-firsthalf()
+half1(length=matchlen)
+half2(length=matchlen)
